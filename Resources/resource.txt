@@ -1,0 +1,6 @@
+
+# python -m pip install -r C:\Users\UDAYKUMAR\PycharmProjects\WTT_2.0\Resources\resource.txt
+
+robotframework
+robotframework-seleniumlibrary
+
