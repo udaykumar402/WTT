@@ -1,6 +1,7 @@
 import subprocess
 from Variables.variables import *
 
+
 def main_func():
     for test_suite_name in test_suite_list:
         # Define the test suite path
