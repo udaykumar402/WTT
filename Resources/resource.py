@@ -8,4 +8,5 @@ def configuration():
     command = f"python -m pip install -r {current_working_dir}\Resources\\resource.txt"
     subprocess.run(command, shell=True)
 
-# configuration()
+
+configuration()
