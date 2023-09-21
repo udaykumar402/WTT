@@ -1,13 +1,6 @@
 import subprocess
 from Variables.variables import *
 
-def configuration():
-    subprocess.run("pip install --upgrade pip", shell=True)
-    command = f"python -m pip install -r {current_working_dir}\Resources\\resource.txt"
-    subprocess.run(command, shell=True)
-
-
-#configuration()
 def main_func():
     for test_suite_name in test_suite_list:
         # Define the test suite path
